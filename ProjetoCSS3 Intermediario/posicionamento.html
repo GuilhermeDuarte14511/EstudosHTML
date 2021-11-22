@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamento (static, relative, aboslute e 
+            fixed)
+        </title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+            body{
+                background: #007fc7;
+            }
+
+            #container{
+                background: #fff;
+                width: 800px;
+                margin: 10px auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            h1{
+
+                position: static;
+
+            }
+
+            p{
+                width: 300PX;
+
+            }
+            .absolute{
+                position: absolute;
+                border: 1px solid red;
+                background: #f2f2f2;
+                top: 20px;
+            }
+            .relative{
+                border: 1px solid red;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <h1>Posicionamento</h1>
+            <p>
+                P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim sit amet tellus eget ultrices. Integer metus urna, gravida vel felis ac, aliquam porta turpis. Sed aliquet nisl ut nisi eleifend tincidunt. Mauris consequat urna eu purus feugiat condimentum. 
+            </p>
+            <p class="absolute">
+                P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim sit amet tellus eget ultrices. Integer metus urna, gravida vel felis ac, aliquam porta turpis. Sed aliquet nisl ut nisi eleifend tincidunt. Mauris consequat urna eu purus feugiat condimentum. 
+            </p>
+
+            <p>
+                P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim sit amet tellus eget ultrices. Integer metus urna, gravida vel felis ac, aliquam porta turpis. Sed aliquet nisl ut nisi eleifend tincidunt. Mauris consequat urna eu purus feugiat condimentum. 
+
+            </p>
+
+            </p>
+        </div>
+
+    </body>
+</html>
